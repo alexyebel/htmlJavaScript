@@ -1,0 +1,52 @@
+Rectangle of Stars (Difficulty Level 1/5)
+<`html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title></title>
+
+    <script>
+
+        function printLine(tav, num) {
+
+            for (var i = 0; i < num; i++) {
+
+                document.write(tav);
+
+            }
+
+        }
+
+    </script>
+
+</head>
+
+<body>
+<form>
+    Rectangle: <input type="text" name="kama?" value="5" id="k">
+    <button onclick="hadpasa()">submit</button>
+</form>
+
+<script>
+function hadpasa() {
+   var x=document.getElementById("k").value;
+    for (var row = 0; row < x; row++) {
+
+        printLine("X", row);
+
+        document.write("<br/>");
+
+    }
+}
+</script>
+
+</body>
+
+</html>
+
+
+

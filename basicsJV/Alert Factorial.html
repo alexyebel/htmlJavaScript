@@ -1,0 +1,28 @@
+<html>
+<head>
+    <script type="text/javascript">
+        function alert_factorial(num)
+        {
+            alert("factorial of "
+                +num
+                +" is "
+                +factorial(num));
+        }
+        function factorial(num)
+        {
+            total = 1;
+            for(i=1;i<=num;i++)
+            {
+                total*=i;
+            }
+            return total;
+        }
+    </script>
+</head>
+<body>
+<script type="text/javascript">
+
+    alert_factorial(5);
+</script>
+</body>
+</html>
